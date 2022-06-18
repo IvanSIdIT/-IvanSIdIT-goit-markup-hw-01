@@ -1,0 +1,38 @@
+:root{
+--primary-text-color: rgba(0, 0, 0, 0.8);
+--primary-bg-color: #ffffff;
+--title-text-color: #000000;
+--accent-color: #2196F3;
+}
+
+body {
+   background-color: var(--primary-bg-color);    
+}
+
+.list{
+   list-style: none;
+}
+
+.web{
+    color: var(--accent-color);
+}
+
+link{
+ color: black;
+}
+
+.adress-link{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer{
+    background-color: #2F303A;;
+}
+
+.company-name{
+    color:#ffffff;
+}
+
+.navigation > .company-name{
+    color: #000000;
+}
