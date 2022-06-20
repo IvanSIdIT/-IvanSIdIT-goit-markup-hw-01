@@ -1,16 +1,77 @@
 :root{
---primary-text-color: rgba(0, 0, 0, 0.8);
+--primary-text-color: #757575;
 --primary-bg-color: #ffffff;
---title-text-color: #000000;
+--title-text-color: #212121;
 --accent-color: #2196F3;
+--secondary-bg-color: #F5F4FA;
+--secondary-link-color: rgba(255, 255, 255, 0.6);
+--third-bg-color: #2F303A;
+--secondary-title-text-color: #000000;
 }
 
 body {
    background-color: var(--primary-bg-color);    
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   color: var(--primary-text-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    letter-spacing: 0.02em; 
+}
+
+.primary-button{
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+    font-size: 16px;
+    letter-spacing: 0.06em;
+}
+
+.hero-title{
+    color: var(--primary-bg-color);
+    font-size: 44px;
+    letter-spacing: 0.06em;    
+}
+
+.hero{
+    background-color: var(--third-bg-color);
+}
+
+.our-advantages-item h3{
+    color: var(--title-text-color);
+    font-weight: 700;
+}
+
+.our-advantages h3{
+    letter-spacing: 0.03em;
+}
+
+.our-advantages p{
+    letter-spacing: 0.03em;
+}
+
+.what-we-do-title{
+    color: var(--title-text-color);
+    letter-spacing: 0.03em;
+}
+
+.navigation-item,
+.e-mail,
+.phone-number{
+    font-weight: 500; 
+}
+
+h1{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 900;
 }
 
 .list{
-   list-style: none;
+    list-style: none;
 }
 
 .web{
@@ -21,16 +82,55 @@ link{
  color: black;
 }
 
+.our-advantages{
+    font-size: 14px;
+}
+
+.our-advantages-title{
+  color: var(--primary-bg-color);
+}
+
+.our-team-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.team-member-name{
+ color: var(--title-text-color);
+ font-weight: 500;
+    font-size: 16px;
+}
+
+.our-team-item{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+
+.our-team-item p{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+
+header{
+    font-size: 14px;
+}
+
 .adress-link{
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--secondary-link-color);
 }
 
 .footer{
-    background-color: #2F303A;;
+   background-color: var(--third-bg-color);
 }
 
 .company-name{
     color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.03em; 
 }
 
 .navigation > .company-name{
